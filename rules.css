@@ -1,7 +1,7 @@
 body,
 html {
     height: 100%;
-    background-image: url("bg.jpg");
+    background-image: url("img/2.png");
 }
 
 body {
@@ -12,8 +12,27 @@ body {
 }
 
 h1,
-p {
+p,
+li {
     text-shadow: 2px 2px 2px #4a4a4a;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+ol {
+    font-size: 35px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.list1 {
+    color: #309edd;
+}
+
+.cover {
+    background-color: #5830ddbc;
 }
 
 .widget {
@@ -100,7 +119,7 @@ footer {
 
 .parallax {
     /* The image used */
-    background-image: url("bg.jpg");
+    background-image: url("img/2.png");
 
     /* Full height */
     height: fit-content;
@@ -116,12 +135,6 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
-}
-
-.centered p {
-    font-size: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .contact-logo {
